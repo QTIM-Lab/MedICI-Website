@@ -1,5 +1,6 @@
 // Variables
 $base-color: #f3f3f3;
+$almost-black: #343132;
 
 
 /*Responsive Design*/
@@ -58,6 +59,10 @@ h1 {
 
     /*width: 100%;*/
     /*height: 300px;*/
+}
+
+.greeting {
+    color: $almost-black;
 }
 
 

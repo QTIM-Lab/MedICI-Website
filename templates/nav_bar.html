@@ -1,7 +1,7 @@
 
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">MedICI</a>
+    <a class="navbar-brand" href="{{ url_for('index')}}">MedICI</a>
     <!-- Expand Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,10 +28,6 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Github Code</a>
-        </li>
-
-        <li class="nav-item">
           <a class="nav-link" href="#">Maintainer - QTIM Lab</a>
         </li> -->
 
@@ -51,14 +47,20 @@
         </li>
         
         <li class="nav-item">
+          <a class="nav-link" href="#live_challeges">Live Challenges</a>
+        </li>
+
+        <!-- Disabled Link -->
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Tutorial Videos</a>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link" href="{{ url_for('contact')}}">Contact Us</a>
         </li>
 
-        <!-- Sampled Disabled Link
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-         -->
+
+        
 
       </ul>
       <!-- Search Bar
