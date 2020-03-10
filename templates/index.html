@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+
+
+<!-- Title -->
+{% block title %} MedICI {% endblock %}
+
+
+<!-- Body -->
+{% block content %}
+
+
+  <!-- Intro and MedICI description -->
+  <div class=col-md>
+      <div class="alert alert-light" role="alert">
+          <h2>What is MedICI</h2>
+          <hr>
+          <p>The Medical Challenge Initiative is a platform to promote innovation through collaboration, to harness the ingenuity of the American public. It is based on the Microsoft open source project CodaLab, with integrations with ePad and caMicroscope. Additional customizations to enhance the project were incorporated based on user inputs.</p>
+          <p>Codalab has their own installation instructions you can follow and we generally recommend following those. However, MedICI has a set of installation instructions performed step by step on Microsoft’s Azure platform. They are located here. This is in case the CodaLab documentation falls a little short, you can see a full walk through. Keep in mind when cloning this repo that you will be cloning MedICI's fork maintained by QTIM. The installation should be same as the instructions at wiki.nci, but you will have extra code for the customizations below.</p>
+      </div>  
+  </div>
+
+  <!-- This is where the challenge thumbnails go -->
+  <div class=challenge-cards>
+      <div class=row>
+          <div class=col-4>
+              <div class="card" style="width: 85% ; margin: auto;">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/miccai-2019.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">MICCAI 2019</h5>
+                <p class="card-text">Computational Precision Medicine 2019: Brain Tumor Classification</p>
+                <hr>
+                <p class="card-text">The challenge will evaluate the performance of automated classification algorithms when information from two types of imaging data – Radiology images and Pathology images – is used. Participants are asked to classify a cohort of brain tumor cases into three sub-types: Glioblastoma, Oligodendroglioma, and Astrocytoma.</p>
+                <a href="http://miccai2019.eastus.cloudapp.azure.com/competitions/2" class="btn btn-primary">Visit Site</a>
+                </div>
+              </div>          
+          </div>
+          <div class=col-4>
+              <div class="card" style="width: 85% ; margin: auto;">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/isbi-2018.png') }}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">ISBI 2018</h5>
+                <p class="card-text">Lung Nodule Malignancy Prediction, Based on Sequential CT Scans</p>
+                <hr>
+                <p class="card-text">This challenge intends to advance methods development on the current clinical impediment to assess nodules status for lung cancer screening subjects with consecutive scans.</p>
+                <a href="http://isbichallenges.cloudapp.net/competitions/15" class="btn btn-primary">Visit Site</a>
+                </div>
+              </div>          
+          </div>
+          <div class=col-4>
+              <div class="card" style="width: 85% ; margin: auto;">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_rt-mac-2019.png') }}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">The overall objective of this grand challenge is to provide a platform for comparison of various auto-segmentation algorithms when they are used to delineate organs at risk (OARs) or tumors from MR images for head and neck patients for radiation treatment planning.</p>
+                <a href="http://aapmchallenges.cloudapp.net/competitions/34" class="btn btn-primary">Visit Site</a>
+                </div>
+              </div>          
+          </div>
+      </div>
+  </div>
+
+
+{% endblock %}

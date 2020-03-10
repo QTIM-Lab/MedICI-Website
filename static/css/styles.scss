@@ -1,0 +1,65 @@
+// Variables
+$base-color: #f3f3f3;
+
+
+/*Responsive Design*/
+@mixin breakpoint($size) {
+  @if $size == phone {
+    @media screen and (max-width: 400px) { @content; }
+  } @else if $size == tablet-portrait {
+    @media screen and (min-width: 600px) { @content; }
+  } @else if $size == tablet-landscape {
+    @media screen and (min-width: 768px) { @content; }
+  } @else if $size == desktop {
+    @media screen and (min-width: 992px) { @content; }
+  } @else if $size == xl-desktop {
+    @media screen and (min-width: 1200px) { @content; }
+  }
+}
+
+// Example Useage
+// @include breakpoint(phone){
+//     color: red;
+// }
+
+
+
+
+
+
+body {
+    width:100vw;
+    margin: 0 0 0 0;
+    background-color: $base-color;
+}
+
+h1 {
+    color: #FFFFFF;
+    /* From Google Fonts */
+
+
+
+    margin: auto;
+    width: 50%;
+    line-height: 180px;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Odibee Sans';
+
+
+}
+
+.jumbotron {
+    background-image: url('../img/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+
+    /*width: 100%;*/
+    /*height: 300px;*/
+}
+
+
+
+

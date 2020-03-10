@@ -1,0 +1,26 @@
+/*Responsive Design*/
+body {
+  width: 100vw;
+  margin: 0 0 0 0;
+  background-color: #f3f3f3; }
+
+h1 {
+  color: #FFFFFF;
+  /* From Google Fonts */
+  margin: auto;
+  width: 50%;
+  line-height: 180px;
+  font-size: xxx-large;
+  text-align: center;
+  font-family: 'Odibee Sans'; }
+
+.jumbotron {
+  background-image: url("../img/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  /*width: 100%;*/
+  /*height: 300px;*/ }
+
+/*# sourceMappingURL=styles.css.map */
