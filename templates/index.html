@@ -16,43 +16,11 @@
           <h2>What is MedICI</h2>
           <hr>
           <section class=greeting>
-            <p>The Medical Challenge Initiative (MedICI) is a platform to promote innovation through collaboration and harness the ingenuity of the American public. It is based on the Microsoft open-source project CodaLab, with integrations with ePad and caMicroscope. Additional customizations to enhance the project were incorporated based on user input.</p>
+            <p>The Medical Challenge Initiative (MedICI) is a platform to promote innovation through collaboration and harness the ingenuity of the American public.</p>
 
             <!-- Challenges -->
             {% include 'challenges.html' %}              
 
-            <p>CodaLab has its own installation instructions you can follow and we recommend following those. They also have a <a href="https://github.com/codalab/codalab-competitions/wiki">github/wiki</a> containing instructions for how to operate the software once it is up and running. However, MedICI has a customized set of <a href="https://wiki.nci.nih.gov/display/MEDICI/Installing+MedICI+and+CodaLab">installation instructions</a> you can perform step-by-step on Microsoft's Azure platform. These customized instructions may be all you need to install MedICI, but refer to the <a href="https://codalab-competitions.readthedocs.io/en/latest/">CodaLab documentation</a> for supplemental information. Keep in mind when cloning this repo that you will be cloning MedICI's fork maintained by QTIM. The installation should be same as the <a href="https://wiki.nci.nih.gov/display/MEDICI/Installing+MedICI+and+CodaLab">MedICI instructions</a>, but you will have extra code for the customizations below.</p>
-
-
-
-            <ol>
-              <li>
-                <a href="https://codalab.org/">CodaLab</a>
-                <br>
-                <img src="{{ url_for('static', filename='img/codalab.png') }}" class="img-thumbnail">
-              </li>
-              <li>
-                <p><a href="https://epad.stanford.edu/">ePad</a> is a freely available quantitative imaging informatics platform, developed at the Rubin lab. This software handles the radiology annotations and metadata management.</p>
-                <br>
-                <img src="{{ url_for('static', filename='img/epad.png') }}" class="img-thumbnail">
-              </li>
-              <li>
-                <p><a href="https://github.com/camicroscope/Distro">caMicroscope</a>, a web based annotation and visualization platform designed for digitized whole slide images. This software handles pathology annotations optimized for large bio-medical image data, with an emphasis on cancer pathology.</p>
-                <br>
-                <img src="{{ url_for('static', filename='img/camicroscope.png') }}" class="img-thumbnail">
-              </li>
-              <li>
-                <span><a href="https://www.docker.com/">Docker Submissions</a>: Rather than limited to code\data submissions, users can submit whole docker images.</span>
-                <br>
-                <img src="{{ url_for('static', filename='img/docker_submission.png') }}" class="img-thumbnail">
-              </li>
-              </li>
-              <li>
-                <span><strong>Issue Reporting System</strong>: Participants routinely have questions that are answered in CodaLabs forums regarding first time use and the submission process. Occasionally issues with an evaluation script or website functionality prevents users from submitting their results or incorrectly scores their algorithm. MedICI provides additional functionality to track these specific issues.</span>
-                <br>
-                <img src="{{ url_for('static', filename='img/issue_reporting_system.png') }}" class="img-thumbnail">
-              </li>
-            </ol>
           </section>
       </div>  
   </div>
