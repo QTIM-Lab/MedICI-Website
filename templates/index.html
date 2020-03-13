@@ -17,7 +17,14 @@
           <hr>
           <section class=greeting>
             <p>The Medical Challenge Initiative (MedICI) is a platform to promote innovation through collaboration and harness the ingenuity of the American public. It is based on the Microsoft open-source project CodaLab, with integrations with ePad and caMicroscope. Additional customizations to enhance the project were incorporated based on user input.</p>
+
+            <!-- Challenges -->
+            {% include 'challenges.html' %}              
+
             <p>CodaLab has its own installation instructions you can follow and we recommend following those. They also have a <a href="https://github.com/codalab/codalab-competitions/wiki">github/wiki</a> containing instructions for how to operate the software once it is up and running. However, MedICI has a customized set of <a href="https://wiki.nci.nih.gov/display/MEDICI/Installing+MedICI+and+CodaLab">installation instructions</a> you can perform step-by-step on Microsoft's Azure platform. These customized instructions may be all you need to install MedICI, but refer to the <a href="https://codalab-competitions.readthedocs.io/en/latest/">CodaLab documentation</a> for supplemental information. Keep in mind when cloning this repo that you will be cloning MedICI's fork maintained by QTIM. The installation should be same as the <a href="https://wiki.nci.nih.gov/display/MEDICI/Installing+MedICI+and+CodaLab">MedICI instructions</a>, but you will have extra code for the customizations below.</p>
+
+
+
             <ol>
               <li>
                 <a href="https://codalab.org/">CodaLab</a>
