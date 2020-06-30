@@ -1,1 +1,1 @@
-web: gunicorn medici_website.wsgi --log-file -
+web: flask run
