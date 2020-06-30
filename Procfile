@@ -1,1 +1,1 @@
-web: flask run
+web: gunicorn medici_website:app
