@@ -1,0 +1,1 @@
+web: gunicorn medici_website.wsgi --log-file -
