@@ -1,1 +1,1 @@
-web: gunicorn medici_website:app
+web: gunicorn -b :5000 medici_website:app
