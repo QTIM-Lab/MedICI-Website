@@ -52,7 +52,7 @@ Remove these nameservers:
 ```
 ns73.domaincontrol.com
 
-ns74.domaincontrol.com
+http://medici-codalab-master.eastus.cloudapp.azure.com/ns74.domaincontrol.com
 ```
 
 
