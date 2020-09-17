@@ -11,6 +11,10 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/tutorial_videos')
+def tutorial_videos():
+    return render_template('tutorial_videos.html')
+
 @app.route('/contact')
 def contact():
     return render_template('contact.html')

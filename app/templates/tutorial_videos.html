@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+
+<!-- Title -->
+{% block title %} Tutorials {% endblock %}
+
+<!-- Body -->
+{% block content %}
+
+<div class=challenge-cards>
+  <div class=row>
+
+      <div class=col-4>
+          <div class="card" style="width: 85% ; margin: auto;">
+            <a href="{{ url_for('static', filename='video/Submitting Results to a MedICI Challenge.mp4') }}">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/Results_Submission_Video.jpg') }}" alt="Card image cap">
+            </a>
+            <div class="card-body">
+            <h5 class="card-title">Results Submission</h5>
+            <p class="card-text">Tutorial for creating a results submission. We demo a csv submission, but any data can be used.</p>
+            <p class="card-text">
+              <a href="https://www.youtube.com/watch?v=lVs-QyuX0bs" target= "_blank">youtube link with closed captions</a>
+            </p>
+            <hr>
+            <a href="{{ url_for('static', filename='video/Submitting Results to a MedICI Challenge.mp4') }}" class="btn btn-primary" target= "_blank">View</a>
+            </div>
+          </div>          
+      </div>
+
+      <div class=col-4></div>
+      <div class=col-4></div>
+
+  </div>
+</div>
+
+</div>
+
+{% endblock %}
+
