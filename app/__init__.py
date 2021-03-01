@@ -4,7 +4,9 @@ import os
 # flask packages
 from flask import Flask
 from flask_mail import Mail, Message
+from dotenv import load_dotenv
 
+# load_dotenv(os.path.join('.env')) # local dev
 
 # import pdb; pdb.set_trace()
 

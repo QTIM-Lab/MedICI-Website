@@ -31,6 +31,8 @@ or
 ```
 gunicorn medici_website:app
 ```
+> Note you need to give gunicorn the environment variables as unlike ```flask run``` it wil not automatically read ```.env```. Find the line with ```# load_dotenv(os.path.join('.env')) # local dev``` and uncomment it. To use this you need to have put environment variables in a clone of .env_sample called .env.
+
 for a wsgi based application that could be paired with nginx.
 
 ## SSL
