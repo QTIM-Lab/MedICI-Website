@@ -5,6 +5,9 @@ import os
 from flask import Flask
 from flask_mail import Mail, Message
 
+
+# import pdb; pdb.set_trace()
+
 app = Flask(__name__)
 mail_settings = {
     "MAIL_SERVER": 'smtp.sendgrid.net',

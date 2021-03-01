@@ -10,22 +10,14 @@ Install
 $ pip install -r requirements
 ```
 
-On your system set these environment variables:
-
-
-FLASK_APP:
-```
-export FLASK_APP=medici_website.py
+Copy the .env_sample file and call it .env.
+```bash
+$ cp .env_sample .env
 ```
 
-SENDGRID_API_KEY:
-```
-export SENDGRID_API_KEY=<key>
-```
-
-MAIL_DEFAULT_SENDER:
-```
-export MAIL_DEFAULT_SENDER=<default email>
+Edit the variables and source the file:
+```bash
+$ source .env
 ```
 
 Then run either:
