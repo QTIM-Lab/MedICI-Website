@@ -5,7 +5,20 @@
     <!-- This is where the challenge thumbnails go -->
     <div class=challenge-cards>
         <div class=row>
-            <div class=col-3>
+
+          <div class=col-3>
+            <div class="card" style="width: 85% ; margin: auto;">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/dl-sparse-view-ct-challenge.jpg') }}" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">DL Sparse View CT Challenge</h5>
+              <p class="card-text">Sparse-View CT Image Reconstruction</p>
+              <hr>
+              <a href="http://dl-sparse-view-ct-challenge.eastus.cloudapp.azure.com/" class="btn btn-primary" target= "_blank">Visit Site</a>
+              </div>
+            </div>          
+          </div>
+
+          <div class=col-3>
                 <div class="card" style="width: 85% ; margin: auto;">
                   <img class="card-img-top" src="{{ url_for('static', filename='img/spie-aapm-breast-cancer-challenge-2020-2021.jpg') }}" alt="Card image cap">
                   <div class="card-body">
@@ -39,31 +52,34 @@
                   </div>
                 </div>          
             </div>
-            <div class=col-3>
-                <div class="card" style="width: 85% ; margin: auto;">
-                  <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_grand_challenge.png') }}" alt="Card image cap">
-                  <div class="card-body">
-                  <h5 class="card-title">AAPM Grand Challenge</h5>
-                  <p class="card-text">Computed Tomography Ventilation Imaging Evaluation 2019 (CTVIE19)</p>
-                  <a href="http://aapmchallenges.cloudapp.net/competitions/35" class="btn btn-primary" target= "_blank">Visit Site</a>
-                  </div>
-                </div>          
-            </div>
+
         </div>
 
         <br>
 
         <div class=row>
-            <div class=col-3>
-                <div class="card" style="width: 85% ; margin: auto;">
-                  <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_rt-mac-2019.png') }}" alt="Card image cap">
-                  <div class="card-body">
-                  <h5 class="card-title">AAPM RT-MAC Challenge</h5>
-                  <p class="card-text">Delineate Organs At Risk (OARs) or tumors from MR images for head and neck patients</p>
-                  <a href="http://aapmchallenges.cloudapp.net/competitions/34" class="btn btn-primary" target= "_blank">Visit Site</a>
-                  </div>
-                </div>          
-            </div>
+
+          <div class=col-3>
+            <div class="card" style="width: 85% ; margin: auto;">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_grand_challenge.png') }}" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">AAPM Grand Challenge</h5>
+              <p class="card-text">Computed Tomography Ventilation Imaging Evaluation 2019 (CTVIE19)</p>
+              <a href="http://aapmchallenges.cloudapp.net/competitions/35" class="btn btn-primary" target= "_blank">Visit Site</a>
+              </div>
+            </div>          
+          </div>
+
+          <div class=col-3>
+            <div class="card" style="width: 85% ; margin: auto;">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_rt-mac-2019.png') }}" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">AAPM RT-MAC Challenge</h5>
+              <p class="card-text">Delineate Organs At Risk (OARs) or tumors from MR images for head and neck patients</p>
+              <a href="http://aapmchallenges.cloudapp.net/competitions/34" class="btn btn-primary" target= "_blank">Visit Site</a>
+              </div>
+            </div>          
+          </div>
 
         </div>
 
