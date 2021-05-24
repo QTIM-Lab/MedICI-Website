@@ -3,11 +3,29 @@
 
     <h2 id=live_challeges>Currently open challenges:</h2>
     <!-- This is where the challenge thumbnails go -->
+    <br>
+    <span class="border border-success" style="border-width: medium !important;"> 
+      <strong> *Note: Green border indicates this challenge is currently accepting submissions </strong> 
+    </span>
+    <br><br>
     <div class=challenge-cards>
         <div class=row>
 
+          <div class="col-3">
+            <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/qin-breast-adc.png') }}" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">Breast MRI prediction of NAC Response
+              </h5>
+              <p class="card-text">Predicting pCR response to NAC</p>
+              <hr>
+              <a href="https://qin-challenge-acrin.centralus.cloudapp.azure.com/" class="btn btn-primary" target= "_blank">Visit Site</a>
+              </div>
+            </div>          
+          </div>
+
           <div class=col-3>
-            <div class="card" style="width: 85% ; margin: auto;">
+            <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
               <img class="card-img-top" src="{{ url_for('static', filename='img/dl-sparse-view-ct-challenge.png') }}" alt="Card image cap">
               <div class="card-body">
               <h5 class="card-title">DL Sparse View CT Challenge</h5>
@@ -19,7 +37,7 @@
           </div>
 
           <div class=col-3>
-                <div class="card" style="width: 85% ; margin: auto;">
+                <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
                   <img class="card-img-top" src="{{ url_for('static', filename='img/spie-aapm-breast-cancer-challenge-2020-2021.jpg') }}" alt="Card image cap">
                   <div class="card-body">
                   <h5 class="card-title">SPIE-AAPM-NCI-DAIR</h5>
@@ -30,34 +48,35 @@
                 </div>          
             </div>
 
-            <div class=col-3>
-                <div class="card" style="width: 85% ; margin: auto;">
-                  <img class="card-img-top" src="{{ url_for('static', filename='img/miccai-2019.jpg') }}" alt="Card image cap">
-                  <div class="card-body">
-                  <h5 class="card-title">MICCAI 2020</h5>
-                  <p class="card-text">Computational Precision Medicine 2020: Brain Tumor Classification</p>
-                  <hr>
-                  <a href="https://miccai.westus2.cloudapp.azure.com/" class="btn btn-primary" target= "_blank">Visit Site</a>
-                  </div>
-                </div>          
-            </div>
-            <div class=col-3>
-                <div class="card" style="width: 85% ; margin: auto;">
-                  <img class="card-img-top" src="{{ url_for('static', filename='img/isbi-2018.png') }}" alt="Card image cap">
-                  <div class="card-body">
-                  <h5 class="card-title">ISBI 2018</h5>
-                  <p class="card-text">Lung Nodule Malignancy Prediction based on Sequential CT Scans</p>
-                  <hr>
-                  <a href="http://isbichallenges.cloudapp.net/competitions/15" class="btn btn-primary" target= "_blank">Visit Site</a>
-                  </div>
-                </div>          
-            </div>
-
         </div>
 
         <br>
 
         <div class=row>
+
+          <div class=col-3>
+            <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
+              <img class="card-img-top" src="{{ url_for('static', filename='img/miccai-2019.jpg') }}" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">MICCAI 2020</h5>
+              <p class="card-text">Computational Precision Medicine 2020: Brain Tumor Classification</p>
+              <hr>
+              <a href="https://miccai.westus2.cloudapp.azure.com/" class="btn btn-primary" target= "_blank">Visit Site</a>
+              </div>
+            </div>          
+          </div>
+
+          <div class=col-3>
+              <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
+                <img class="card-img-top" src="{{ url_for('static', filename='img/isbi-2018.png') }}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">ISBI 2018</h5>
+                <p class="card-text">Lung Nodule Malignancy Prediction based on Sequential CT Scans</p>
+                <hr>
+                <a href="http://isbichallenges.cloudapp.net/competitions/15" class="btn btn-primary" target= "_blank">Visit Site</a>
+                </div>
+              </div>          
+          </div>
 
           <div class=col-3>
             <div class="card" style="width: 85% ; margin: auto;">
@@ -70,8 +89,15 @@
             </div>          
           </div>
 
+
+        </div>
+
+        <br>
+
+        <div class=row>
+
           <div class=col-3>
-            <div class="card" style="width: 85% ; margin: auto;">
+            <div class="card border-success card-addons" style="width: 85% ; margin: auto;">
               <img class="card-img-top" src="{{ url_for('static', filename='img/aapm_rt-mac-2019.png') }}" alt="Card image cap">
               <div class="card-body">
               <h5 class="card-title">AAPM RT-MAC Challenge</h5>

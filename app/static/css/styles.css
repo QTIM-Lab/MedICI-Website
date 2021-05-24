@@ -26,4 +26,7 @@ h1 {
 .greeting {
   color: #343132; }
 
+.card-addons {
+  border-width: medium !important; }
+
 /*# sourceMappingURL=styles.css.map */

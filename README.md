@@ -67,3 +67,18 @@ Check to make sure they’re correct, then **Save your changes**.
 Registrars typically process nameserver updates within 24 hours. Once this process completes, Cloudflare confirms your site activation via email.
 
 Learn how to change nameservers in Cloudflare.
+
+## CCS
+
+The css is in ```app/static/css/styles.css```. However that file is created with sass. You should not edit it directly or the following will erase your changes:
+
+Edit the ```styles.scss``` file in the same directory and run this:
+```bash
+sass --watch app/static/css/styles.scss:app/static/css/styles.css
+```
+
+or depending on your version of sass:
+
+```bash
+sass --watch app/static/css/styles.scss app/static/css/styles.css
+```
