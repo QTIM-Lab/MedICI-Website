@@ -7,7 +7,7 @@ Use python3 to install requirements.
 
 Install 
 ```
-$ pip install -r requirements
+$ pip install -r requirements.txt
 ```
 
 Copy the .env_sample file and call it .env.
