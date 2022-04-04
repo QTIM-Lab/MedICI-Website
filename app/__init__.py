@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 # import pdb; pdb.set_trace()
 
 app = Flask(__name__)
+# import pdb; pdb.set_trace()
 mail_settings = {
     "MAIL_SERVER": 'smtp.sendgrid.net',
     "MAIL_PORT": 587,
